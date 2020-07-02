@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trivia</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+  </head>
+
+  <body style="background-color: rgb(192, 192, 201);">
+    <script type="text/javascript">
+      var correcto = 0;
+      var erradas = 0;
+      var mitad = prompt("¿La mitad de 2 mas 5?");
+      if (mitad == "6") {
+        correcto = 1;
+        alert("Correcto");
+      } else {
+        erradas = 1;
+        alert("Incorrecto");
+      }
+      var KM = prompt("¿Quién fue el mejor baterista en 2007?");
+      if (KM == "The Rev") {
+        correcto = correcto + 1;
+        alert("Correcto");
+      } else {
+        erradas = erradas + 1;
+        alert("Incorrecto");
+      }
+      var GH = prompt("¿En que año nació GloryHammer?");
+      if (GH == "2010") {
+        correcto = correcto + 1;
+        alert("Correcto");
+      } else {
+        erradas = erradas + 1;
+        alert("Incorrecto");
+      }
+      var WCK = prompt("¿Que edición del festival Wacken se festejaría este año?");
+      if (WCK == "31") {
+        correcto = correcto + 1;
+        alert("Correcto");
+      } else {
+        erradas = erradas + 1;
+        alert("Incorrecto");
+      }
+      var Till = prompt("¿De que banda es el cantante Till Lindemann?");
+      if (Till == "Rammstein") {
+        correcto = correcto + 1;
+        alert("Correcto");
+      } else {
+        erradas = erradas + 1;
+        alert("Incorrecto");
+      }
+      alert("Hiciste " + correcto + " correctas");
+      alert("Hiciste " + erradas + " incorrectas");
+    </script>
+    <a class="a" href="/index.html"
+      ><h2 style="left: 15px;" class="volver">Volver a el Porfolio</h2></a
+    >
+    <a class="a" href="/pages/Indice.html"
+      ><h2 style="top: 100px; left: 15px;" class="volver">
+        Volver a indice
+      </h2></a
+    >
+  </body>
+</html>
